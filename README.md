@@ -1,4 +1,4 @@
 AnthonUI
 ========
 
-AnthonOS UI/UX Config Archives
+AnthonOS UI/UX Config Archives - Simple and Swift.
