@@ -1,0 +1,20 @@
+[Display]
+ApplyOnStartup=true
+StartupCommands=xrandr --output LVDS1 --pos 0x0 --mode 1366x768 --refresh 60.0006\nxrandr --output VGA1 --pos 0x768 --mode 1920x1080 --refresh 60\nxrandr --noprimary
+
+[Screen_0]
+OutputsUnified=false
+UnifiedRect=0,0,0,0
+UnifiedRotation=1
+
+[Screen_0_Output_LVDS1]
+Active=true
+Rect=0,0,1366,768
+RefreshRate=60.0006256103516
+Rotation=1
+
+[Screen_0_Output_VGA1]
+Active=true
+Rect=0,768,1920,1080
+RefreshRate=60
+Rotation=1

@@ -1,0 +1,21 @@
+[Colors]
+CurrentPalette=Forty Colors
+
+[DownloadDialog Settings]
+Height 768=400
+Width 1366=700
+
+[KFileDialog Settings]
+Height 1080=510
+Recent Files[$e]=$HOME/AnthonUI.qtcurve,$HOME/AnthonUI.qtcurve
+Recent URLs[$e]=
+Width 1920=816
+
+[MainWindow]
+Height 1080=485
+Height 768=489
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAA3IAAAHJAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1366=882
+Width 1920=882
