@@ -1,0 +1,22 @@
+[BrowseView]
+ShowApplicationVersions=true
+
+[FilterMenu]
+FilterNative=false
+FilterNewest=false
+
+[MainUi]
+Height 1080=549
+Height 768=549
+Width 1366=799
+Width 1920=799
+
+[UpdateView]
+ShowSizes=true
+ShowVersions=true
+
+[requirementsDialog]
+Height 1080=599
+Height 768=599
+Width 1366=600
+Width 1920=600

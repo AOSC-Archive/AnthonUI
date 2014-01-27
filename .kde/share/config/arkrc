@@ -1,0 +1,14 @@
+[MainWindow]
+State=AAAA/wAAAAD9AAAAAAAAAoAAAAGQAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+splitterSizes=422,211
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/libxp-1.0.2-1-x86_64.pkg.tar.xz
+File2[$e]=$HOME/Downloads/bullet-2.82-r2704.zip
+Name1[$e]=libxp-1.0.2-1-x86_64.pkg.tar.xz
+Name2[$e]=bullet-2.82-r2704.zip
+
+[Viewer]
+Height 1080=400
+Width 1920=560

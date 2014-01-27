@@ -1,0 +1,118 @@
+[Devices][/org/freedesktop/UDisks/devices/loop0]
+EverMounted=true
+Icon=media-optical
+LastNameSeen=601.0 MiB 硬盘驱动器
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks/devices/mmcblk0p1]
+EverMounted=true
+ForceAttachAutomount=false
+ForceLoginAutomount=false
+Icon=media-flash-sd-mmc
+LastNameSeen=14.8 GiB 可卸载媒体
+LastSeenMounted=true
+
+[Devices][/org/freedesktop/UDisks/devices/sda1]
+EverMounted=true
+ForceAttachAutomount=false
+ForceLoginAutomount=false
+Icon=drive-harddisk
+LastNameSeen=167.7 GiB 硬盘驱动器
+LastSeenMounted=true
+
+[Devices][/org/freedesktop/UDisks/devices/sdc1]
+EverMounted=true
+ForceAttachAutomount=false
+ForceLoginAutomount=false
+Icon=drive-harddisk
+LastNameSeen=Backup
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks/devices/sdd]
+Icon=drive-removable-media-usb
+LastNameSeen=外接软盘驱动器
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks/devices/sdd1]
+Icon=drive-harddisk
+LastNameSeen=232.9 GiB 可卸载媒体
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks/devices/sdd4]
+EverMounted=true
+Icon=drive-removable-media-usb
+LastNameSeen=7.4 GiB 可卸载媒体
+LastSeenMounted=true
+
+[Devices][/org/freedesktop/UDisks/devices/sde]
+ForceAttachAutomount=false
+ForceLoginAutomount=false
+Icon=drive-removable-media-usb
+LastNameSeen=aigo Miniking
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks/devices/sde1]
+ForceAttachAutomount=false
+ForceLoginAutomount=false
+Icon=drive-harddisk
+LastNameSeen=Backup
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks/devices/sde4]
+ForceAttachAutomount=false
+ForceLoginAutomount=false
+Icon=drive-removable-media-usb
+LastNameSeen=7.4 GiB 可卸载媒体
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks/devices/sdf]
+ForceAttachAutomount=false
+ForceLoginAutomount=false
+Icon=drive-removable-media-usb
+LastNameSeen=aigo Miniking
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks/devices/sdf1]
+EverMounted=true
+ForceAttachAutomount=false
+ForceLoginAutomount=false
+Icon=drive-harddisk
+LastNameSeen=232.9 GiB 可卸载媒体
+LastSeenMounted=true
+
+[Devices][/org/freedesktop/UDisks/devices/sdf4]
+EverMounted=true
+ForceAttachAutomount=false
+ForceLoginAutomount=false
+Icon=drive-removable-media-usb
+LastNameSeen=7.4 GiB 可卸载媒体
+LastSeenMounted=true
+
+[Devices][/org/freedesktop/UDisks/devices/sdg]
+Icon=drive-removable-media-usb
+LastNameSeen=aigo Miniking
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks/devices/sdg1]
+ForceAttachAutomount=false
+ForceLoginAutomount=false
+Icon=drive-harddisk
+LastNameSeen=232.9 GiB 可卸载媒体
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks/devices/sdg4]
+EverMounted=true
+Icon=drive-removable-media-usb
+LastNameSeen=7.4 GiB 可卸载媒体
+LastSeenMounted=true
+
+[Devices][/org/freedesktop/UDisks/devices/sr0:media]
+EverMounted=true
+ForceAttachAutomount=false
+ForceLoginAutomount=false
+Icon=media-optical-data
+LastNameSeen=ISOIMAGE
+LastSeenMounted=true
+
+[General]
+AutomountEnabled=true
