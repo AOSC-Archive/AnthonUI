@@ -1,14 +1,20 @@
 [BackgroundConfigDialog]
-Height 1080=719
+Height 1080=1055
 Height 768=719
 Width 1366=649
-Width 1920=649
+Width 1920=1875
 
 [PlasmaViews][1]
 panelVisibility=0
 
 [PlasmaViews][1][Sizes]
 lastsize=1080
+
+[PlasmaViews][1][Sizes][Vertical1000]
+max=-1,-1
+min=-1,-1
+offset=0
+size=45,1080
 
 [PlasmaViews][1][Sizes][Vertical1080]
 max=45,1080
@@ -22,7 +28,17 @@ min=45,768
 offset=0
 size=45,768
 
+[PlasmaViews][1][Sizes][Vertical800]
+max=45,800
+min=45,800
+offset=0
+size=45,800
+
+[PlasmaViews][1][Vertical1080]
+offset=0
+
 [PlasmaViews][4]
+Alignment=132
 panelVisibility=1
 
 [PlasmaViews][4][Horizontal1366]
@@ -37,6 +53,12 @@ min=1324,35
 offset=0
 size=1324,35
 
+[PlasmaViews][4][Sizes][Vertical1000]
+max=-1,-1
+min=-1,-1
+offset=0
+size=292,1080
+
 [PlasmaViews][4][Sizes][Vertical1080]
 max=292,1080
 min=292,1080
@@ -49,18 +71,34 @@ min=292,768
 offset=0
 size=292,768
 
+[PlasmaViews][4][Sizes][Vertical800]
+max=292,800
+min=292,800
+offset=0
+size=292,800
+
+[PlasmaViews][4][Vertical1080]
+offset=0
+
 [Updates]
 performed=/usr/share/apps/plasma-desktop/updates/set-hidden-single-vd-pager.js,/usr/share/apps/plasma-desktop/updates/addShowActivitiesManagerPlasmoid.js,/usr/share/apps/plasma-desktop/updates/systray-to-notifications-widget.js
 
 [ViewIds]
 1=1
-23=3
 24=4
+49=3
+
+[configureNotification]
+__file=
+appRealName=apperd
 
 [invokeAction]
 __file=
 actionId=
 predicate=solid_mtp.desktop
+
+[stop]
+__file=
 
 [stopSuppressingScreenPowerManagement]
 __file=

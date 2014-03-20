@@ -8,7 +8,7 @@ activity=
 activityId=
 desktop=-1
 formfactor=3
-geometry=11225,-1086,45,1080
+geometry=11301,-1086,45,1080
 immutability=1
 lastDesktop=-1
 lastScreen=0
@@ -21,14 +21,16 @@ zvalue=0
 RightButton;NoModifier=contextmenu
 
 [Containments][1][Applets][14]
-geometry=3,4,42,1076
-immutability=2
+geometry=3,4,42,1052
+immutability=1
 plugin=smooth-tasks
 zvalue=0
 
 [Containments][1][Applets][14][Configuration]
+fps=60
 iconScale=75
 lights=true
+toolTipKind=1
 
 [Containments][1][Applets][14][LayoutInformation]
 Order=1
@@ -111,41 +113,12 @@ wallpaper=/usr/share/wallpapers/Elarun
 wallpapercolor=0,0,0
 wallpaperposition=0
 
-[Containments][23]
-ActionPluginsSource=Global
-activity=新活动
-activityId=155a1fb5-00aa-4cee-9b3c-dab29a1122ae
-desktop=-1
-formfactor=0
-geometry=1926,0,1920,1080
-immutability=1
-lastDesktop=-1
-lastScreen=0
-location=0
-plugin=org.kde.homerun
-screen=0
-wallpaperplugin=image
-wallpaperpluginmode=SingleImage
-zvalue=0
-
-[Containments][23][ToolBox]
-corner=7
-offset=0
-
-[Containments][23][Wallpaper][image]
-slideTimer=10
-slidepaths=
-userswallpapers=
-wallpaper=/usr/share/wallpapers/Castilla_Sky/
-wallpapercolor=0,0,0
-wallpaperposition=0
-
 [Containments][24]
 activity=
 activityId=
 desktop=-1
 formfactor=3
-geometry=10298,-1086,292,1080
+geometry=10317,-1086,311,1080
 immutability=1
 lastDesktop=-1
 lastScreen=0
@@ -158,7 +131,7 @@ zvalue=0
 RightButton;NoModifier=contextmenu
 
 [Containments][24][Applets][25]
-geometry=0,0,289,340
+geometry=0,0,308,340
 immutability=2
 plugin=notifier
 zvalue=0
@@ -167,8 +140,8 @@ zvalue=0
 Order=0
 
 [Containments][24][Applets][26]
-geometry=0,344,289,50
-immutability=2
+geometry=0,344,308,50
+immutability=1
 plugin=systemtray
 zvalue=0
 
@@ -179,7 +152,7 @@ ShowCommunications=true
 ShowHardware=true
 ShowSystemServices=true
 ShowUnknown=true
-alwaysShown=
+alwaysShown=battery
 hidden=
 
 [Containments][24][Applets][26][Configuration][Applets][27]
@@ -189,8 +162,8 @@ plugin=org.kde.networkmanagement
 zvalue=0
 
 [Containments][24][Applets][26][Configuration][Applets][27][PopupApplet]
-DialogHeight=363
-DialogWidth=491
+DialogHeight=255
+DialogWidth=490
 
 [Containments][24][Applets][26][Configuration][Applets][27][Shortcuts]
 global=
@@ -202,8 +175,8 @@ plugin=org.kde.notifications
 zvalue=0
 
 [Containments][24][Applets][26][Configuration][Applets][29][PopupApplet]
-DialogHeight=122
-DialogWidth=370
+DialogHeight=221
+DialogWidth=450
 
 [Containments][24][Applets][26][Configuration][Applets][29][Shortcuts]
 global=
@@ -215,7 +188,7 @@ plugin=battery
 zvalue=0
 
 [Containments][24][Applets][26][Configuration][Applets][30][PopupApplet]
-DialogHeight=169
+DialogHeight=115
 DialogWidth=298
 
 [Containments][24][Applets][26][Configuration][Applets][30][Shortcuts]
@@ -227,13 +200,46 @@ SystemTray-Klipper-26=Ctrl+Alt+V
 [Containments][24][Applets][26][LayoutInformation]
 Order=1
 
-[Containments][24][Applets][31]
-geometry=0,933.75652173913,289,143.24347826087
-immutability=2
-plugin=adjustableclock
+[Containments][24][Applets][32]
+geometry=0,398,308,432.454545454545
+immutability=1
+plugin=panelspacer_internal
 zvalue=0
 
-[Containments][24][Applets][31][Configuration]
+[Containments][24][Applets][32][Configuration]
+FixedSize=false
+
+[Containments][24][Applets][32][LayoutInformation]
+Order=2
+
+[Containments][24][Applets][55]
+geometry=0,1009,308,22
+immutability=1
+plugin=kimpanel
+zvalue=6
+
+[Containments][24][Applets][55][LayoutInformation]
+Order=4
+
+[Containments][24][Applets][56]
+geometry=0,1035,308,21
+immutability=1
+plugin=panelspacer_internal
+zvalue=7
+
+[Containments][24][Applets][56][Configuration]
+FixedSize=true
+
+[Containments][24][Applets][56][LayoutInformation]
+Order=5
+
+[Containments][24][Applets][57]
+geometry=0,834.454545454545,308,170.545454545455
+immutability=1
+plugin=adjustableclock
+zvalue=8
+
+[Containments][24][Applets][57][Configuration]
 announceInterval=0
 calendarType=-1
 clipboardExpressions=Clock.getValue(Clock.Time\\, {'short': true}),Clock.getValue(Clock.Time),,Clock.getValue(Clock.Date\\, {'short': true}),Clock.getValue(Clock.Date),,Clock.getValue(Clock.DateTime\\, {'short': true}),Clock.getValue(Clock.DateTime),Clock.getValue(Clock.Year) + '-' + Clock.getValue(Clock.Month) + '-' + Clock.getValue(Clock.DayOfMonth) + ' ' + Clock.getValue(Clock.Hour) + ':' + Clock.getValue(Clock.Minute) + ':' + Clock.getValue(Clock.Second),,Clock.getValue(Clock.Timestamp)
@@ -246,28 +252,73 @@ holidaysRegionsDaysOff=cn_zh-cn
 theme=progress
 timeZones=UTC
 
-[Containments][24][Applets][31][LayoutInformation]
+[Containments][24][Applets][57][LayoutInformation]
 Order=3
 
-[Containments][24][Applets][31][PopupApplet]
+[Containments][24][Applets][57][PopupApplet]
 DialogHeight=240
 DialogWidth=410
 
-[Containments][24][Applets][32]
-geometry=0,398,289,531.75652173913
-immutability=2
-plugin=panelspacer_internal
+[Containments][24][Configuration]
+maximumSize=311,1080
+minimumSize=311,1080
+
+[Containments][46]
+ActionPluginsSource=Global
+EnabledEntries=plasma-sal-bookmarks.desktop,plasma-sal-contacts.desktop,plasma-sal-multimedia.desktop,plasma-sal-internet.desktop,plasma-sal-graphics.desktop,plasma-sal-education.desktop,plasma-sal-games.desktop,plasma-sal-office.desktop
+activity=新活动
+activityId=87b718ba-c313-425f-92e7-1a90d7f0a2cf
+desktop=-1
+formfactor=0
+geometry=1926,0,800,600
+immutability=1
+lastDesktop=-1
+lastScreen=-1
+location=0
+plugin=desktop
+screen=-1
+wallpaperplugin=image
+wallpaperpluginmode=SingleImage
 zvalue=0
 
-[Containments][24][Applets][32][Configuration]
-FixedSize=false
+[Containments][49]
+ActionPluginsSource=Global
+activity=新活动
+activityId=155a1fb5-00aa-4cee-9b3c-dab29a1122ae
+desktop=-1
+formfactor=0
+geometry=0,1236,1920,1080
+immutability=1
+lastDesktop=-1
+lastScreen=0
+location=0
+mainGroup=1
+plugin=org.kde.homerun
+screen=0
+wallpaperplugin=image
+wallpaperpluginmode=SingleImage
+zvalue=0
 
-[Containments][24][Applets][32][LayoutInformation]
-Order=2
+[Containments][49][Groups][1]
+geometry=0,0,1875,1080
+plugin=grid
+zvalue=0
 
-[Containments][24][Configuration]
-maximumSize=292,1080
-minimumSize=292,1080
+[Containments][49][Groups][1][Configuration]
+ColsNumber=37
+RowsNumber=21
+
+[Containments][49][ToolBox]
+corner=7
+offset=0
+
+[Containments][49][Wallpaper][image]
+slideTimer=10
+slidepaths=
+userswallpapers=
+wallpaper=/usr/share/wallpapers/tower/
+wallpapercolor=invalid
+wallpaperposition=2
 
 [General]
-immutability=2
+immutability=1

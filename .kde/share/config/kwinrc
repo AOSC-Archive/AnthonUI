@@ -5,15 +5,15 @@ update_info=kwin_remove_effects.upd:kwin4.7_effects
 AnimationSpeed=3
 Backend=OpenGL
 Enabled=true
-GLColorCorrection=false
-GLCore=false
+GLColorCorrection=true
+GLCore=true
 GLLegacy=false
 GLPreferBufferSwap=a
-GLTextureFilter=2
+GLTextureFilter=0
 GraphicsSystem=raster
 HiddenPreviews=5
 OpenGLIsUnsafe=false
-UnredirectFullscreen=false
+UnredirectFullscreen=true
 XRenderSmoothScale=false
 
 [Desktops]
@@ -23,11 +23,22 @@ Number=1
 TabBox=false
 TabBoxAlternative=false
 
+[Effect-CoverSwitch]
+TabBox=false
+TabBoxAlternative=false
+
+[Effect-FlipSwitch]
+TabBox=false
+TabBoxAlternative=false
+
+[Effect-Glide]
+GlideAngle=0
+
 [Effect-Zoom]
 InitialZoom=1
 
 [Plugins]
-kwin4_effect_blurEnabled=true
+kwin4_effect_blurEnabled=false
 kwin4_effect_coverswitchEnabled=false
 kwin4_effect_cubeEnabled=false
 kwin4_effect_cubeslideEnabled=false
@@ -35,8 +46,8 @@ kwin4_effect_dashboardEnabled=true
 kwin4_effect_desktopgridEnabled=true
 kwin4_effect_dialogparentEnabled=true
 kwin4_effect_diminactiveEnabled=false
-kwin4_effect_dimscreenEnabled=false
-kwin4_effect_fadeEnabled=true
+kwin4_effect_dimscreenEnabled=true
+kwin4_effect_fadeEnabled=false
 kwin4_effect_fadedesktopEnabled=false
 kwin4_effect_fallapartEnabled=false
 kwin4_effect_flipswitchEnabled=false
@@ -55,7 +66,7 @@ kwin4_effect_mouseclickEnabled=false
 kwin4_effect_mousemarkEnabled=false
 kwin4_effect_presentwindowsEnabled=true
 kwin4_effect_resizeEnabled=false
-kwin4_effect_scaleinEnabled=false
+kwin4_effect_scaleinEnabled=true
 kwin4_effect_screenedgeEnabled=true
 kwin4_effect_screenshotEnabled=true
 kwin4_effect_sheetEnabled=false
@@ -83,5 +94,26 @@ PluginLib=kwin3_qtcurve
 ShowToolTips=true
 
 [TabBox]
+ActivitiesMode=1
+ApplicationsMode=0
+DesktopMode=1
+HighlightWindows=true
+LayoutName=informative
 ListMode=0
+MinimizedMode=0
+MultiScreenMode=0
+ShowDesktopMode=0
 ShowTabBox=true
+SwitchingMode=0
+
+[TabBoxAlternative]
+ActivitiesMode=1
+ApplicationsMode=0
+DesktopMode=1
+HighlightWindows=true
+LayoutName=thumbnails
+MinimizedMode=0
+MultiScreenMode=0
+ShowDesktopMode=0
+ShowTabBox=true
+SwitchingMode=0
