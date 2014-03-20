@@ -8,6 +8,13 @@ _k_friendly_name=KDE 键盘布局切换器
 [kactivitymanagerd]
 _k_friendly_name=KDE 活动管理器
 switch-to-activity-155a1fb5-00aa-4cee-9b3c-dab29a1122ae=none,none,切换到活动 "新活动"
+switch-to-activity-87b718ba-c313-425f-92e7-1a90d7f0a2cf=none,none,切换到活动 "新活动"
+
+[kcm_touchpad]
+Disable Touchpad=none,none,Disable Touchpad
+Enable Touchpad=none,none,Enable Touchpad
+Toggle Touchpad=none,none,Toggle Touchpad
+_k_friendly_name=kcm_touchpad
 
 [kded]
 Decrease Keyboard Brightness=Keyboard Brightness Down,Keyboard Brightness Down,降低键盘亮度
@@ -28,6 +35,7 @@ _k_friendly_name=khotkeys
 
 [klipper]
 _k_friendly_name=Klipper
+clear-history=none,none,清除剪贴板历史
 clipboard_action=Ctrl+Alt+X,Ctrl+Alt+X,启用剪贴板动作
 cycleNextAction=none,none,下一个历史项
 cyclePrevAction=none,none,上一个历史项
@@ -42,8 +50,14 @@ Decrease volume  - Capture, HDA Intel PCH=none,none,减小音量 - Capture\\, HD
 Decrease volume  - Digital, HDA Intel PCH=none,none,减小音量 - Digital\\, HDA Intel PCH
 Decrease volume  - Front, HDA Intel PCH=none,none,减小音量 - Front\\, HDA Intel PCH
 Decrease volume  - Headphone, HDA Intel PCH=none,none,减小音量 - Headphone\\, HDA Intel PCH
+Decrease volume  - IEC958 2, HDA ATI HDMI=none,none,减小音量 - IEC958 2\\, HDA ATI HDMI
 Decrease volume  - IEC958 2, HDA Intel PCH=none,none,减小音量 - IEC958 2\\, HDA Intel PCH
+Decrease volume  - IEC958 3, HDA ATI HDMI=none,none,减小音量 - IEC958 3\\, HDA ATI HDMI
 Decrease volume  - IEC958 3, HDA Intel PCH=none,none,减小音量 - IEC958 3\\, HDA Intel PCH
+Decrease volume  - IEC958 4, HDA ATI HDMI=none,none,减小音量 - IEC958 4\\, HDA ATI HDMI
+Decrease volume  - IEC958 5, HDA ATI HDMI=none,none,减小音量 - IEC958 5\\, HDA ATI HDMI
+Decrease volume  - IEC958 6, HDA ATI HDMI=none,none,减小音量 - IEC958 6\\, HDA ATI HDMI
+Decrease volume  - IEC958, HDA ATI HDMI=none,none,减小音量 - IEC958\\, HDA ATI HDMI
 Decrease volume  - IEC958, HDA Intel PCH=none,none,减小音量 - IEC958\\, HDA Intel PCH
 Decrease volume  - Internal Mic Boost, HDA Intel PCH=none,none,减小音量 - Internal Mic Boost\\, HDA Intel PCH
 Decrease volume  - Internal Mic, HDA Intel PCH=none,none,减小音量 - Internal Mic\\, HDA Intel PCH
@@ -59,8 +73,14 @@ Increase volume  - Capture, HDA Intel PCH=none,none,增大音量 - Capture\\, HD
 Increase volume  - Digital, HDA Intel PCH=none,none,增大音量 - Digital\\, HDA Intel PCH
 Increase volume  - Front, HDA Intel PCH=none,none,增大音量 - Front\\, HDA Intel PCH
 Increase volume  - Headphone, HDA Intel PCH=none,none,增大音量 - Headphone\\, HDA Intel PCH
+Increase volume  - IEC958 2, HDA ATI HDMI=none,none,增大音量 - IEC958 2\\, HDA ATI HDMI
 Increase volume  - IEC958 2, HDA Intel PCH=none,none,增大音量 - IEC958 2\\, HDA Intel PCH
+Increase volume  - IEC958 3, HDA ATI HDMI=none,none,增大音量 - IEC958 3\\, HDA ATI HDMI
 Increase volume  - IEC958 3, HDA Intel PCH=none,none,增大音量 - IEC958 3\\, HDA Intel PCH
+Increase volume  - IEC958 4, HDA ATI HDMI=none,none,增大音量 - IEC958 4\\, HDA ATI HDMI
+Increase volume  - IEC958 5, HDA ATI HDMI=none,none,增大音量 - IEC958 5\\, HDA ATI HDMI
+Increase volume  - IEC958 6, HDA ATI HDMI=none,none,增大音量 - IEC958 6\\, HDA ATI HDMI
+Increase volume  - IEC958, HDA ATI HDMI=none,none,增大音量 - IEC958\\, HDA ATI HDMI
 Increase volume  - IEC958, HDA Intel PCH=none,none,增大音量 - IEC958\\, HDA Intel PCH
 Increase volume  - Internal Mic Boost, HDA Intel PCH=none,none,增大音量 - Internal Mic Boost\\, HDA Intel PCH
 Increase volume  - Internal Mic, HDA Intel PCH=none,none,增大音量 - Internal Mic\\, HDA Intel PCH
@@ -76,8 +96,14 @@ Toggle mute  - Capture, HDA Intel PCH=none,none,切换静音 - Capture\\, HDA In
 Toggle mute  - Digital, HDA Intel PCH=none,none,切换静音 - Digital\\, HDA Intel PCH
 Toggle mute  - Front, HDA Intel PCH=none,none,切换静音 - Front\\, HDA Intel PCH
 Toggle mute  - Headphone, HDA Intel PCH=none,none,切换静音 - Headphone\\, HDA Intel PCH
+Toggle mute  - IEC958 2, HDA ATI HDMI=none,none,切换静音 - IEC958 2\\, HDA ATI HDMI
 Toggle mute  - IEC958 2, HDA Intel PCH=none,none,切换静音 - IEC958 2\\, HDA Intel PCH
+Toggle mute  - IEC958 3, HDA ATI HDMI=none,none,切换静音 - IEC958 3\\, HDA ATI HDMI
 Toggle mute  - IEC958 3, HDA Intel PCH=none,none,切换静音 - IEC958 3\\, HDA Intel PCH
+Toggle mute  - IEC958 4, HDA ATI HDMI=none,none,切换静音 - IEC958 4\\, HDA ATI HDMI
+Toggle mute  - IEC958 5, HDA ATI HDMI=none,none,切换静音 - IEC958 5\\, HDA ATI HDMI
+Toggle mute  - IEC958 6, HDA ATI HDMI=none,none,切换静音 - IEC958 6\\, HDA ATI HDMI
+Toggle mute  - IEC958, HDA ATI HDMI=none,none,切换静音 - IEC958\\, HDA ATI HDMI
 Toggle mute  - IEC958, HDA Intel PCH=none,none,切换静音 - IEC958\\, HDA Intel PCH
 Toggle mute  - Internal Mic Boost, HDA Intel PCH=none,none,切换静音 - Internal Mic Boost\\, HDA Intel PCH
 Toggle mute  - Internal Mic, HDA Intel PCH=none,none,切换静音 - Internal Mic\\, HDA Intel PCH
@@ -130,6 +156,8 @@ Decrease Opacity=none,none,降低活动窗口不透明度 5 %
 Expose=Ctrl+F9,Ctrl+F9,切换显示窗口(对当前桌面)
 ExposeAll=Ctrl+F10,Ctrl+F10,切换显示窗口(对全部桌面)
 ExposeClass=Ctrl+F7,Ctrl+F7,切换当前窗口分类
+FlipSwitchAll=none,none,翻转切换(对全部桌面)
+FlipSwitchCurrent=none,none,翻转切换(对当前桌面)
 Increase Opacity=none,none,提高活动窗口不透明度 5 %
 Invert Screen Colors=none,none,屏幕反色
 Kill Window=Ctrl+Alt+Esc,Ctrl+Alt+Esc,杀死窗口
@@ -267,7 +295,7 @@ Window to Screen 6=none,none,窗口到屏幕 6
 Window to Screen 7=none,none,窗口到屏幕 7
 _k_friendly_name=KWin
 view_actual_size=Meta+0,Meta+0,实际大小
-view_zoom_in=Meta+=,Meta+=,放大
+view_zoom_in=Alt+=,Meta+=,放大
 view_zoom_out=Meta+-,Meta+-,缩小
 
 [plasma-desktop]
@@ -280,4 +308,5 @@ _k_friendly_name=Plasma 桌面外壳
 activate widget 27=none,none,激活 网络管理 部件
 activate widget 29=none,none,激活 通知 部件
 activate widget 30=none,none,激活 电池监视器 部件
+activate widget 60=Ctrl+Alt+D,Ctrl+Alt+D,激活 显示桌面 部件
 manage activities=Meta+Q,Meta+Q,活动...

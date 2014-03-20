@@ -21,7 +21,7 @@ zvalue=0
 RightButton;NoModifier=contextmenu
 
 [Containments][1][Applets][14]
-geometry=3,4,42,1052
+geometry=3,4,42,1006
 immutability=1
 plugin=smooth-tasks
 zvalue=0
@@ -46,6 +46,15 @@ hideWhenSingleDesktop=true
 
 [Containments][1][Applets][4][LayoutInformation]
 Order=0
+
+[Containments][1][Applets][60]
+geometry=3,1014,42,42
+immutability=1
+plugin=showdesktop
+zvalue=0
+
+[Containments][1][Applets][60][Shortcuts]
+global=Ctrl+Alt+D
 
 [Containments][1][Configuration]
 maximumSize=45,1080
@@ -175,7 +184,7 @@ plugin=org.kde.notifications
 zvalue=0
 
 [Containments][24][Applets][26][Configuration][Applets][29][PopupApplet]
-DialogHeight=221
+DialogHeight=122
 DialogWidth=450
 
 [Containments][24][Applets][26][Configuration][Applets][29][Shortcuts]
